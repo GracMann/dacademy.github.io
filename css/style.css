@@ -462,6 +462,8 @@ About
 }
 .pad-bottom {
 	padding-bottom:90px;
+	font-size: 16px;
+	font-style: inherit;
 }
 .about-parallax{
 	background:url(../images/letters-bg/about.png);
@@ -478,7 +480,7 @@ About
 	background-attachment:fixed;
 }
 .about-nav{
-	width:350px;
+	width:350px;	
 	position:absolute;
 	top:-30px;
 	left:50%;
@@ -489,6 +491,7 @@ About
 .about-nav a {
 	position:absolute;
 	width:48%;
+	font-size: 14px;
 	height:42px;
 	display:block;
 	top:7px;
@@ -722,6 +725,7 @@ Services
 }
 #services .container p{
 	margin-top:70px;
+	font-size: 15px;
 }
 .services-holder{
 	margin-top:80px;
