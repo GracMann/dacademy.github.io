@@ -535,6 +535,10 @@ Team
 	padding:50px;
 	cursor:move;
 }
+#achievement-carusel .item{
+	padding:50px;
+	cursor:move;
+}
 .team-img{
 	border:1px solid #666;
 	padding:2%;
@@ -603,6 +607,24 @@ Team
 	color: #848484;
 }
 #team-carusel .item p {
+	font-size:13px;
+	margin-top:6px;
+}
+#achievement-carusel .item img:hover{
+	opacity:0.6;
+}
+#achievement-carusel .item h3{
+	margin-top:12px;
+	position:relative;
+	padding-bottom:6px;
+}
+#achievement-carusel .item h4{
+	margin:6px 0;
+	font-size:11px;
+	font-weight:400;
+	color: #848484;
+}
+#achievement-carusel .item p {
 	font-size:13px;
 	margin-top:6px;
 }

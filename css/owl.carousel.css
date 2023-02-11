@@ -244,6 +244,22 @@
 	-o-transition: all 0.3s;
 	transition: all 0.3s;
 }
+#achievement-carusel .owl-next , #achievement-carusel .owl-prev , #client-carusel .owl-next , #client-carusel .owl-prev{
+	display:block;
+	width:30px;
+	height:30px;
+	position:absolute;
+	text-indent:-9999px;
+	border:1px solid #666;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+#achievement-carusel .owl-next , #achievement-carusel .owl-prev {
+	top:-26px;
+}
 #team-carusel .owl-next , #team-carusel .owl-prev {
 	top:-26px;
 }
@@ -251,6 +267,12 @@
 	bottom:-26px;
 }
 #team-carusel .owl-next , #client-carusel .owl-next{
+	left:50%;
+	background: url(../images/next.png) no-repeat 10px 4px;
+	margin-left:10px;
+	border-right:none;
+}
+#achievement-carusel .owl-next , #client-carusel .owl-next{
 	left:50%;
 	background: url(../images/next.png) no-repeat 10px 4px;
 	margin-left:10px;
@@ -266,7 +288,21 @@
 	position: absolute;
 	pointer-events: none;
 }
+#achievement-carusel .owl-next:after, #achievement-carusel .owl-next:before  , #client-carusel .owl-next:after, #client-carusel .owl-next:before{
+	left: 100%;
+	top: 50%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+}
+
 #team-carusel .owl-next:hover , #client-carusel .owl-next:hover{
+	background-position:15px 4px;
+}
+#achievement-carusel .owl-next:hover , #client-carusel .owl-next:hover{
 	background-position:15px 4px;
 }
 #team-carusel .owl-next:after ,  #client-carusel .owl-next:after{
@@ -274,7 +310,17 @@
 	border-width: 14px;
 	margin-top: -14px;
 }
+#achievement-carusel .owl-next:after ,  #client-carusel .owl-next:after{
+	border-left-color: #fff;
+	border-width: 14px;
+	margin-top: -14px;
+}
 #team-carusel .owl-next:before ,  #client-carusel .owl-next:before{
+	border-left-color: #000;
+	border-width: 15px;
+	margin-top: -15px;
+}
+#achievement-carusel .owl-next:before ,  #client-carusel .owl-next:before{
 	border-left-color: #000;
 	border-width: 15px;
 	margin-top: -15px;
@@ -285,10 +331,29 @@
 	margin-right:10px;
 	border-left:none;
 }
+#achievement-carusel .owl-prev , #client-carusel .owl-prev {
+	right:50%;
+	background: url(../images/prev.png) no-repeat 5px 4px ;
+	margin-right:10px;
+	border-left:none;
+}
 #team-carusel .owl-prev:hover , #client-carusel .owl-prev:hover{
 	background-position:0 4px;
 }
+#achievement-carusel .owl-prev:hover , #client-carusel .owl-prev:hover{
+	background-position:0 4px;
+}
 #team-carusel .owl-prev:after, #team-carusel .owl-prev:before , #client-carusel  .owl-prev:after, #client-carusel .owl-prev:before{
+	right: 100%;
+	top: 50%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+}
+#achievement-carusel .owl-prev:after, #achievement-carusel .owl-prev:before , #client-carusel  .owl-prev:after, #client-carusel .owl-prev:before{
 	right: 100%;
 	top: 50%;
 	border: solid transparent;
@@ -303,7 +368,17 @@
 	border-width: 14px;
 	margin-top: -14px;
 }
+#achievement-carusel .owl-prev:after , #client-carusel .owl-prev:after {
+	border-right-color: #fff;
+	border-width: 14px;
+	margin-top: -14px;
+}
 #team-carusel .owl-prev:before  , #client-carusel .owl-prev:before{
+	border-right-color: #000;
+	border-width: 15px;
+	margin-top: -15px;
+}
+#achievement-carusel .owl-prev:before  , #client-carusel .owl-prev:before{
 	border-right-color: #000;
 	border-width: 15px;
 	margin-top: -15px;

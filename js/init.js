@@ -60,6 +60,13 @@ function initMinima() {
 		items : 3, 	
      });
 	 
+	 $("#achievement-carusel").owlCarousel({
+		navigation:true,
+		slideSpeed : 500,
+		pagination : false,
+		items : 3, 	
+     });
+
 	$('#testimonials-slider').owlCarousel({
 		navigation : true,
 		pagination:true, 
