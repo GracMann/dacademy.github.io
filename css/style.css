@@ -1001,7 +1001,8 @@ Portfolio
 	float:left;
 	text-align:center;
 	width:33.333333333%;
-	position:relative;	
+	position:relative;
+	padding: 2px;	
 }
 .box  a{
 	float:left;
