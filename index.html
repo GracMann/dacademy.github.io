@@ -5,7 +5,7 @@
 <!--=============== basic  ===============-->
 
 	<meta charset="UTF-8">
-	<title>The Defence Academy</title>
+	<title>Shatrujeet Defence Academy</title>
 	<meta name="description" content="Your website description here">
 	<meta name="keywords" content="your, website, keywords, here">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
@@ -31,12 +31,16 @@
 </head>
 
 <body onLoad="initialize()">
- 
-	<!--================= Main start ================-->
-		
-	<div class="loader"></div>
-	<!-- Modal -->
+        <main id="myContainer" class="MainContainer">
 
+            <!-- Open The Modal -->
+            <button id="myBtn" class="btn">Open Modal</button>
+
+	<!--================= Main start ================-->
+
+
+	<div class="loader"></div>
+	<!-- Modal -->	
 	<section id="main">
 
 		<!--=============== navigation ===============-->
@@ -413,7 +417,7 @@
 			</div>
 						
 		</section><!-- Services end -->
-		
+
 		<!--================= About start ================-->
 		
 		<section id="achievements" class="sections white-bg">
@@ -791,7 +795,7 @@
 						<ul>
 							<li>+91-7240330604 <span>Call us</span></li>
 							<li>yourmail@gmail.com <span>Write us</span></li>
-							<li>Amphitheatre Parkway, CA 94043 <span>Reach us</span></li>
+							<li>Shatrujeet Defence Academy, CA 94043 <span>Reach us</span></li>
 						</ul>
 	
 					</div>
@@ -828,15 +832,23 @@
 				</div>
 				
 				<div class="footer-separator"></div>
-				<p>The Defence Academy Jodphur © 2023  All rights reserved.</p>
+				<p>Shatrujeet Defence Academy Jodphur © 2023  All rights reserved.</p>
 			
 			</div>
 			
 		</footer><!-- Footer end -->
 		
 	</section><!-- Main end -->
-	
     <!--Script-->
+</main>
+	    <div id="myModal" class="Modal is-hidden is-visuallyHidden">
+            <!-- Modal content -->
+            <div class="Modal-content">
+                <span id="closeModal" class="Close">&times;</span>
+                <h2>Simple Modal</h2>
+                
+            </div>
+        </div>
 	<script type="text/javascript" src="js/jquery.min.js"></script>
 	<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
 	<script type="text/javascript" src="js/smoothscroll.js"></script>
@@ -852,7 +864,28 @@
 	<script type="text/javascript" src="js/init.js"></script>
 	<script type="text/javascript" src="js/jquery.vegas.js"></script>
 	<script type="text/javascript" src="js/init_vegas.js"></script>
+	<script type="text/javascript">
+			var modal=document.getElementById("myModal"),
+			body=document.getElementsByTagName("body"),
+			container=document.getElementById("myContainer"),
+			btnOpen=document.getElementById("myBtn"),
+			btnClose=document.getElementById("closeModal");
+			window.onload=function(){modal.className="Modal is-visuallyHidden",
+			setTimeout(function(){container.className="MainContainer is-blurred",
+				modal.className="Modal"},
+			100),
+			container.parentElement.className="ModalOpen"},
+			btnClose.onclick=function(){modal.className="Modal is-hidden is-visuallyHidden",
+			body.className="",
+			container.className="MainContainer",
+			container.parentElement.className=""},
+			window.onclick=function(e){e.target==modal&&(modal.className="Modal is-hidden",
+				body.className="",
+			container.className="MainContainer",
+			container.parentElement.className="")};
+	</script>
 
+ 
   </body>
 
 </html>
