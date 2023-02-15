@@ -2261,9 +2261,9 @@ CSS animation
 .Modal-content {
   background-color: #fefefe;
   margin: auto;
-  padding: 20px;
+  padding: 11px;
   border-radius: 4px;
-  max-width: 600px;
+  max-width: 520px;
   height: auto;
 }
 
@@ -2278,7 +2278,7 @@ CSS animation
 .Close {
   color: #aaaaaa;
   float: right;
-  font-size: 16px;
+  font-size: 25px;
 }
 
 .Close:hover, .Close:focus {
@@ -2364,7 +2364,7 @@ input:hover:focus::-ms-placeholder, textarea:hover::focus:-ms-placeholder {
 
 header {
   position: relative;
-  margin: 100px 0 25px 0;
+  margin: 25px 0 25px 0;
   font-size: 2.3em;
   text-align: center;
   letter-spacing: 7px;
@@ -2428,19 +2428,14 @@ textarea:hover {
   color: #e2dedb;
 }
 
-#submit {
-  width: 502px;
-  
+#submit {  
   padding: 0;
-  margin: -5px 0px 0px 0px;
-  
+  margin: -5px 0px 0px 0px;  
   font-family: 'Lato', sans-serif;
   font-size: 0.875em;
-  color: #b3aca7;
-  
+  color: #b3aca7;  
   outline:none;
-  cursor: pointer;
-  
+  cursor: pointer;  
   border: solid 1px #b3aca7;
   border-top: none;
 }
