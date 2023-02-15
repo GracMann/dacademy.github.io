@@ -844,6 +844,7 @@
 	    <div id="myModal" class="Modal is-hidden is-visuallyHidden">
             <!-- Modal content -->
             <div class="Modal-content">
+            <span id="closeModal" class="Close">&times;</span>
              <header>CONTACT US</header>
               <form id="form" class="topBefore">			
 			  <input id="name" type="text" placeholder="NAME">
@@ -883,11 +884,7 @@
 			btnClose.onclick=function(){modal.className="Modal is-hidden is-visuallyHidden",
 			body.className="",
 			container.className="MainContainer",
-			container.parentElement.className=""},
-			window.onclick=function(e){e.target==modal&&(modal.className="Modal is-hidden",
-				body.className="",
-			container.className="MainContainer",
-			container.parentElement.className="")};
+			container.parentElement.className=""};
 	</script>
 
  
