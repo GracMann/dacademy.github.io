@@ -526,7 +526,12 @@ About
 	margin:0 auto;
 	position:relative;
 }
-
+.pop-img{
+	max-width:550px;
+	padding-top:0px;
+	margin:0 auto;
+	position:relative;
+}
 /* ====================
 Team
 --------------------------------------------------------------*/
@@ -2374,6 +2379,11 @@ header {
   position: relative;
   width: 500px;
   margin: 50px auto 100px auto;
+}
+#pop-form {
+  position: relative;
+  width: 500px;
+  margin: 5px auto 20px auto;
 }
 
 input {
