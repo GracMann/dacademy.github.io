@@ -62,7 +62,7 @@ Grid
 }
 
 @media screen and (min-width: 740px) {
-  .grid-1     { width: 13.636363636364%; }
+  .grid-1     { width: 20%; }
   .grid-2     { width: 30.30303030303%; }
   .grid-3,
   .grid-half  { width: 46.969696969697%; }
@@ -403,9 +403,19 @@ intro
 	margin-top:15%;	
 }
 #top-slide h1{
-	color:#fff;
+	color:#af2929; 
+	font-weight: bold;
 	font-style: normal;
-	font-weight: 300;
+	font-size: 70px !important;
+	line-height: 1.17em;
+	margin: 0 0 20px;
+	text-transform: uppercase
+}
+#top-slide h2{
+	color:#af2929; 
+	font-weight: bold;
+	font-style: normal;
+	font-size: 30px !important;
 	line-height: 1.17em;
 	margin: 0 0 20px;
 	text-transform: uppercase
