@@ -2648,11 +2648,11 @@ textarea:hover {
 }
 
 .footer-distributed .footer-links a{
-	display:inline-block;
-	line-height: 1.8;
-  font-weight:400;
-	text-decoration: none;
-	color:  inherit;
+	display: inline-block;
+    font-weight: 200;
+    font-family: 'Open Sans', cursive;
+    text-decoration: none;
+    color: inherit;
 }
 
 .footer-distributed .footer-company-name{
