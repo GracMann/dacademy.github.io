@@ -2703,7 +2703,7 @@ textarea:hover {
 }
 
 .footer-distributed .footer-center p a{
-	color:  #022489;
+	color:  #fff;
 	text-decoration: none;;
 }
 
@@ -2725,6 +2725,10 @@ textarea:hover {
 
 .footer-distributed .footer-right{
 	width: 20%;
+}
+.footer-distributed .footer-right li{
+	color: #a19c9c;
+    font-size: 13px;
 }
 
 .footer-distributed .footer-company-about{
