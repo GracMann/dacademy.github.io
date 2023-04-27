@@ -2610,7 +2610,7 @@ textarea:hover {
 	box-sizing: border-box;
 	width: 100%;
 	text-align: left;
-	font: bold 15px 'Open Sans', cursive;
+	font: bold 15px 'Open Sans', sans-serif;
 	padding: 55px 50px;
 }
 
@@ -2631,7 +2631,7 @@ textarea:hover {
 
 .footer-distributed h3{
 	color:  #ffffff;
-	font: normal 30px 'Open Sans', cursive;
+	font: normal 30px 'Open Sans', sans-serif;
 	margin: 0;
 }
 
@@ -2651,7 +2651,7 @@ textarea:hover {
 .footer-distributed .footer-links a{
 	display: inline-block;
     font-weight: 200;
-    font-family: 'Open Sans', cursive;
+    font-family: 'Open Sans', sans-serif;
     text-decoration: none;
     color: inherit;
 }
@@ -2769,7 +2769,7 @@ textarea:hover {
 @media (max-width: 880px) {
 
 	.footer-distributed{
-		font: bold 15px 'Open Sans', cursive;;
+		font: bold 15px 'Open Sans', sans-serif;
 	}
 
 	.footer-distributed .footer-left,
