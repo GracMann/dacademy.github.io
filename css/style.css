@@ -1925,9 +1925,9 @@ Contact form
 #contact_form label{
 	display: block;
 	text-align: center;
-	margin-top: 50px;
-	margin-bottom: 20px;
-	font-size: 0.8em;
+	margin-top: 30px;
+	margin-bottom: 10px;
+	font-size: 1.2em;
 	text-transform: uppercase;
 	color: #666;
 }
@@ -2610,7 +2610,7 @@ textarea:hover {
 	box-sizing: border-box;
 	width: 100%;
 	text-align: left;
-	font: bold 16px sans-serif;
+	font: bold 15px 'Open Sans', cursive;
 	padding: 55px 50px;
 }
 
@@ -2631,12 +2631,13 @@ textarea:hover {
 
 .footer-distributed h3{
 	color:  #ffffff;
-	font: normal 25px 'Open Sans', cursive;
+	font: normal 30px 'Open Sans', cursive;
 	margin: 0;
 }
 
 .footer-distributed h3 span{
-	color:  lightseagreen;
+	color:  #022489;
+	font-size: 20px !important;
 }
 
 /* Footer links */
@@ -2702,7 +2703,7 @@ textarea:hover {
 }
 
 .footer-distributed .footer-center p a{
-	color:  lightseagreen;
+	color:  #022489;
 	text-decoration: none;;
 }
 
@@ -2768,7 +2769,7 @@ textarea:hover {
 @media (max-width: 880px) {
 
 	.footer-distributed{
-		font: bold 14px sans-serif;
+		font: bold 15px 'Open Sans', cursive;;
 	}
 
 	.footer-distributed .footer-left,
